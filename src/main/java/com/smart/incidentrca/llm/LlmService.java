@@ -34,7 +34,7 @@ public class LlmService {
 
         // Build JSON request for OpenAI Chat API
         JSONObject json = new JSONObject();
-        json.put("model", "gpt-4");  // or "gpt-3.5-turbo"
+        json.put("model", "gpt-4");
         json.put("messages", List.of(
                 new JSONObject().put("role", "user").put("content", prompt)
         ));
