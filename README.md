@@ -19,3 +19,4 @@ This application provides AI-driven insights into incidents, including potential
 - **API Documentation:** Swagger / OpenAPI  
 - **AI Integration:** OpenAI GPT / LLM  
 - **Build Tool:** Maven (Maven Wrapper included)
+- **Testing:** JUnit 5 with Mockito for unit and service layer tests
